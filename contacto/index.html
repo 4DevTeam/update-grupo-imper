@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grupo IMPER | Solución e Impermeabilización</title>
+	<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+	<!-- Bulma Version 0.9.0-->
+	<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" type="text/css" href="../css/landing.css">
+    <script src="../js/menu.js"></script>
+</head>
+
+<body>
+    <section class="hero is-info is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+                            <img src="../assets/images/logo-white.png" alt="Logo">
+                        </a>
+                        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div class="navbar-menu" id="navMenu">
+                        <div class="navbar-end">
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="/">
+                                    <span class="icon">
+                                        <i class="fas fa-home"></i>
+                                    </span>
+                                    <span>Inicio</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="../nosotros/">
+                                    <span class="icon">
+                                        <i class="fas fa-user-friends"></i>
+                                    </span>
+                                    <span>Nosotros</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="#">
+                                    <span class="icon">
+                                        <i class="fas fa-paint-roller"></i>
+                                    </span>
+                                    <span>Productos</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="#">
+                                    <span class="icon">
+                                        <i class="fas fa-folder-open"></i>
+                                    </span>
+                                    <span>Portafolio</span>
+                                </a>
+                            </span>
+                            <span class="navbar-item">
+                                <a class="button is-white is-outlined" href="/contacto/">
+                                    <span class="icon">
+                                        <i class="fas fa-address-card"></i>
+                                    </span>
+                                    <span>Contacto</span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-8 is-variable ">
+                    <div class="column is-two-thirds has-text-left">
+                        <br> <br> <br> <br>
+                        <h1 class="title is-1">¿Quieres pedir una cotización? <br> ¡Contactanos!</h1>
+                        <p class="is-size-4">Recuerda que puedes seguirnos en nuestras redes sociales para estar atento
+                            a todo.</p> <br>
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/somosgrupoimper" target="_blank"
+                                class="button is-light is-large"><i class="fa-brands fa-facebook"
+                                    aria-hidden="true"></i></i></a>
+                            <a href="https://instagram.com" target="_blank" class="button is-light is-large"><i
+                                    class="fa-brands fa-instagram" aria-hidden="true"></i></i></a>
+                            <a href="https://twitter.com" target="_blank" class="button is-light is-large"><i
+                                    class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="column is-one-third has-text-left">
+                        <div class="field">
+                            <label class="label">Nombre</label>
+                            <div class="control">
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">E-Mail</label>
+                            <div class="control">
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="label">Teléfono</div>
+                            <div class="control">
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="label">Dirigido a</div>
+                            <div class="select">
+                                <select name="" id="">
+                                    <option value="matriz">Matriz</option>
+                                    <option value="buenavista">Buenavista</option>
+                                    <option value="aleman">Alemán</option>
+                                    <option value="sur">Sur</option>
+                                    <option value="succancun">Suc. Cancún</option>
+                                    <option value="playadelcarmen">Playa del Carmen</option>
+                                    <option value="chetumal">Chetumal</option>
+                                    <option value="campeche">Campeche</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Mensaje</label>
+                            <div class="control">
+                                <textarea class="textarea is-normal is-hovered has-fixed-size"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="g-recaptcha" data-sitekey="6LdwzsceAAAAAAcBfJmRG5x7BsNL8gVwFO8luLLj"></div>
+                            <br />
+                            <div id="status"></div>
+                            <div class="control">
+                                <button type="submit" onclick="descargar()"
+                                    class="button is-link is-fullwidth has-text-weight-medium is-medium">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<script>
+	function descargar() {
+		var response = grecaptcha.getResponse();
+		if (response.length != 0)
+			window.open("https://www.google.com/");
+		else
+			document.getElementById('status').innerHTML = "Acepta el captcha primero.";
+	}
+</script>
