@@ -9,11 +9,14 @@
 	<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
 	<!-- Bulma Version 0.9.0-->
 	<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+    <link href="~bulma-carousel/dist/css/bulma-carousel.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="stylesheet" type="text/css" href="../css/landing.css">
     <script src="../js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
 </head>
 
 <body>
@@ -77,94 +80,97 @@
                     </div>
                 </div>
             </nav>
-        </div>
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="columns is-8 is-variable ">
-                    <div class="column is-two-thirds has-text-left">
-                        <br> <br> <br> <br>
-                        <h1 class="title is-1">¿Quieres pedir una cotización? <br> ¡Contactanos!</h1>
-                        <p class="is-size-4">Recuerda que puedes seguirnos en nuestras redes sociales para estar atento
-                            a todo.</p> <br>
-                        <div class="social-media">
-                            <a href="https://www.facebook.com/somosgrupoimper" target="_blank"
-                                class="button is-light is-large"><i class="fa-brands fa-facebook"
-                                    aria-hidden="true"></i></i></a>
-                            <a href="https://instagram.com" target="_blank" class="button is-light is-large"><i
-                                    class="fa-brands fa-instagram" aria-hidden="true"></i></i></a>
-                            <a href="https://twitter.com" target="_blank" class="button is-light is-large"><i
-                                    class="fa-brands fa-twitter" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                    <div class="column is-one-third has-text-left">
-                        <div class="field">
-                            <label class="label has-text-white">Nombre</label>
-                            <div class="control">
-                                <input class="input" type="text">
+            <section class="section">
+                <div class="container">
+                    <!-- Start Carousel -->
+                    <div id="carousel-demo" class="carousel" data-infinite="true">
+                        <!-- Slide Content -->
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-square is-covered">
+                                    <img src="../assets/images/Bacsa.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="item__title">Bacsa</div>
                             </div>
                         </div>
-                        <div class="field">
-                            <label class="label has-text-white">E-Mail</label>
-                            <div class="control">
-                                <input class="input" type="text">
+                        <!-- Slide Content -->
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-covered">
+                                    <img src="../assets/images/CountryClub.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="item__title">Yucatan Country Club</div>
                             </div>
                         </div>
-                        <div class="field">
-                            <div class="label has-text-white">Teléfono</div>
-                            <div class="control">
-                                <input class="input" type="tel">
+                        <!-- Slide Content -->
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-covered">
+                                    <img src="../assets/images/LogoSoriana.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="item__title">Soriana</div>
                             </div>
                         </div>
-                        <div class="field">
-                            <div class="label has-text-white">Empresa</div>
-                            <div class="control">
-                                <input class="input" type="text">
+                        <!-- Slide Content -->
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-covered">
+                                    <img src="../assets/images/HolidayInn.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="item__title">Holiday Inn</div>
                             </div>
                         </div>
-                        <div class="field">
-                            <div class="label has-text-white">Dirigido a</div>
-                            <div class="select">
-                                <select name="" id="">
-                                    <option value="matriz">Matriz</option>
-                                    <option value="buenavista">Buenavista</option>
-                                    <option value="aleman">Alemán</option>
-                                    <option value="sur">Sur</option>
-                                    <option value="succancun">Suc. Cancún</option>
-                                    <option value="playadelcarmen">Playa del Carmen</option>
-                                    <option value="chetumal">Chetumal</option>
-                                    <option value="campeche">Campeche</option>
-                                </select>
+                        <!-- Slide Content -->
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-covered">
+                                    <img src="../assets/images/HolidayInnExpress.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="item__title">Holiday Inn Express</div>
                             </div>
                         </div>
-                        <div class="field">
-                            <label class="label has-text-white">Mensaje</label>
-                            <div class="control">
-                                <textarea class="textarea is-normal is-hovered has-fixed-size"></textarea>
+                        <!-- Slide Content -->
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-covered">
+                                    <img src="../assets/images/ValentinImperial.png" alt="">
+                                </figure>
                             </div>
-                        </div>
-                        <div>
-                            <div class="g-recaptcha" data-sitekey="6LdwzsceAAAAAAcBfJmRG5x7BsNL8gVwFO8luLLj"></div>
-                            <br />
-                            <div id="status"></div>
-                            <div class="control">
-                                <button type="submit" onclick="descargar()"
-                                    class="button is-link is-fullwidth has-text-weight-medium is-medium">Enviar</button>
+                            <div class="card-content">
+                                <div class="item__title">Valentin Imperial Maya</div>
                             </div>
                         </div>
                     </div>
+                    <!-- End Carousel -->
                 </div>
-            </div>
+            </section>
         </div>
     </section>
 </body>
-
-</html>
 <script>
-	function descargar() {
-		var response = grecaptcha.getResponse();
-		if (response.length != 0)
-			window.open("https://www.google.com/");
-		else
-			document.getElementById('status').innerHTML = "Acepta el captcha primero.";
-	}
+    bulmaCarousel.attach('#carousel-demo', {
+		slidesToScroll: 2,
+		slidesToShow: 4
+		});
 </script>
+<style>
+    .container{
+        overflow: hidden;
+    }
+    .slider-navigation-previous{
+        background: grey;
+    }
+    .slider-navigation-next{
+        background: grey;
+    }
+</style>
