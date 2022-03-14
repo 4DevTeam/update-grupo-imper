@@ -21,15 +21,52 @@ html,body {
     background-size: cover;
   }
 
+  .hero.is-contact {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.9)
+    ), url('../assets/images/background-contact.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   .hero .nav, .hero.is-success .nav {
     -webkit-box-shadow: none;
     box-shadow: none;
+  }
+
+  .is-media {
+    background-color: #ffffff00;
+    border-color: rgba(255, 255, 255, 0);
+    color: #00BF8B;
+    font-size: 38px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 0px;
+  }
+
+  .is-media:hover {
+    background-color: #ffffff00;
+    border-color: rgba(255, 255, 255, 0);
+    color: white;
   }
 
   .subtitle {
     padding: .5rem 0;
     line-height: 1.5;
     color: white;
+  }
+
+  .status {
+    color: rgb(250, 235, 28);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    display: inline !important;
   }
 
   .title {
@@ -46,14 +83,25 @@ html,body {
   max-height: none;
 }
 
+.has-text-imper {
+  color: #00BF8B !important;
+}
+
+.button.is-imper {
+  background-color: #00BF8B !important;
+  border-color: #00BF8B !important;
+  color: white !important;
+}
+
 .button.is-white.is-outlined {
   border-color: rgba(240, 248, 255, 0);
 }
 
 .footer {
-  color: black;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  background-color: #004EAB !important;
+  color: rgb(255, 255, 255);
+  padding-top: .6rem;
+  padding-bottom: .6rem;
 }
 
 video {
@@ -76,7 +124,7 @@ video {
 }
 
 @media screen and (max-width: 1023px) {
-  .hero.is-info .navbar-menu {
+  .navbar-menu {
     background-color: #00000044;
   }
 }
