@@ -16,12 +16,8 @@
 </head>
 
 <body>
-    <video playsinline autoplay muted loop id="background">
-        <source src="assets/videos/Video 1.mp4" type="video/mp4">
-    </video>
-
     <div id="content">
-        <section class="hero is-fullheight">
+        <section class="hero">
             <div class="hero-head">
                 <nav class="navbar footer">
                     <div class="container">
@@ -30,9 +26,9 @@
                                 <img src="assets/images/logo-white.png" alt="Logo">
                             </a>
                             <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true" class="burger-menu"></span>
+                                <span aria-hidden="true" class="burger-menu"></span>
+                                <span aria-hidden="true" class="burger-menu"></span>
                             </a>
                         </div>
                         <div class="navbar-menu" id="navMenu">
@@ -82,6 +78,14 @@
                     </div>
                 </nav>
                 </div>
+        </section>
+
+        <section>
+            <div class="video-container">
+                <video playsinline autoplay muted loop id="background">
+                    <source src="assets/videos/Video 1.mp4" type="video/mp4">
+                </video>
+            </div>
         </section>
 
         <section>

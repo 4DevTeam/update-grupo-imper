@@ -2,12 +2,23 @@ html,body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     /* background-color: rgba(0, 0, 0, 0.452); */
   }
+
   .hero.is-info {
     background-color: rgba(0, 0, 0, 0);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  
+  .video-container {
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .burger-menu {
+    color: aliceblue;
   }
 
   .hero.is-we {
@@ -116,13 +127,10 @@ html,body {
 }
 
 video {
-  object-fit: cover;
   width: 100vw;
   height: 100vh;
-  position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
   filter:opacity(40%);
   filter: brightness(75%);
 }
@@ -145,5 +153,20 @@ video {
 @media screen and (max-width: 1023px) {
   .navbar-menu {
     background-color: #00000044;
+  }
+
+  .video-container {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  video {
+    width: 100vw;
+    height: auto;
+    top: 0;
+    left: 0;
+    filter:opacity(40%);
+    filter: brightness(75%);
   }
 }
